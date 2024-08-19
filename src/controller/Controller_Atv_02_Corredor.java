@@ -22,7 +22,6 @@ public class Controller_Atv_02_Corredor extends Thread
 				semaforo.acquire();
 				porta();
 			} catch (InterruptedException e) {
-			
 				e.printStackTrace();
 			}finally {
 				semaforo.release();
